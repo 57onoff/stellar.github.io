@@ -1,0 +1,265 @@
+
+/* OVERALL ASPECT */
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+}
+a, button {
+	transition: 0.5s;
+}
+
+body {
+  	background: url('../img/header.jpg') no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	font-family: "RalewayRegular";
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+/* RELOADER */
+
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.loader .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-posirion: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute; 
+}
+
+/* ---------- GLOBAL ELEMENTS, CLASSES ---------- */
+
+
+/* INNER INPUT */
+
+
+
+
+/* SECTION TITLE */
+
+.section_title {
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+	font-family: "RalewaySemiBold";
+}
+.section_title_inverse {
+	color: #000000;
+	text-align: center;
+	font-size: 20px;
+	font-family: "RalewaySemiBold";
+}
+
+/* BUTTONS */
+
+.main_btn {
+	display: block;
+	width: 100%;
+	height: 45px;
+	background: #ffe300;
+	color: #3d3250;
+	font-family: "RalewaySemiBold";
+	border-radius: 40px;
+	text-align: center;
+	padding: 12px;
+	margin-top: 20px;
+	border: none;
+}
+.main_btn:hover {
+	color: #000;
+	background: #fff000;
+	text-decoration: none;
+}
+
+
+.main_btnn {
+	display: block;
+	width: 100%;
+	height: 45px;
+	background: #ffe300;
+	color: #3d3250;
+	font-family: "RalewaySemiBold";
+	border-radius: 40px;
+	text-align: center;
+	padding: 12px;
+	margin-top: -10px;
+	margin-left: 30px;
+	border: none;
+}
+.main_btnn:hover {
+	color: #000;
+	background: #fff000;
+	text-decoration: none;
+}
+.hover_shadow:hover {
+	box-shadow: 0px 0px 20px rgba(255,240,0, 0.9);
+}
+.fw {
+	width: 150px;
+	margin: 0 auto;
+}
+.sb {
+	width: 200px;
+	float: left;
+}
+
+/* FOOTER */
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background: #000000;
+}
+.copy_wrap {
+	margin-top: 40px;
+	padding-top: -200px;
+}
+.copy_wrap p {
+	color: #fff;
+	margin-left: 500px;
+}
+.copy_wrap p a {
+	text-decoration: underline;
+	color: #fff;
+	margin-left: 30px;
+}
+/*************************************** INDEX.HTML **************************************/
+
+/* HEADER */
+
+.header {
+	height: 700px;
+	margin-top: -50px;
+}
+.logo1 {
+ position: absolute;
+ margin: -40px 0 0 -562px;
+ z-index: 100;
+}
+.renders_wrap {
+	position: relative;
+}
+.navbar_wrap {
+	margin-top: 80px;
+	height: 60px;
+}
+.navbar_wrap ul {
+	list-style: none;
+}
+.navbar_wrap ul li {
+	float: left;
+}
+.navbar_wrap ul li a {
+	color: #000000;
+	font-family: "RalewaySemiBold";
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px;
+	transition: 0s;
+}
+.navbar_wrap ul li a:hover {
+	color: #000000;
+	border-bottom: 3px solid #000000;
+}
+.projectname_wrap h1 {
+	width: 777px;
+	font-size: 17px;
+	color: #000000;
+	margin-top: 509px;
+	margin-left: -250px;
+	line-height: 25px;
+	font-family: "BaronBold";
+}
+
+/* MONITIRONG */
+
+.monitoring {
+	background: url('../img/monitoring.jpg') no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mon_table {
+	margin-top: 50px;
+}
+.mon_table td {
+	margin-top: 50px;
+	width: 100%;
+	height: 40px;
+}
+.mon_online {
+	color: #3d3250;
+	font-size: 25px;
+	font-family: "RalewaySemiBold";
+}
+.value {
+	color: #5a4a75;
+}
+
+/* START GAME */
+
+.start_game {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #fff;
+}
+.item_wrap {
+	height: 450px;
+	background: #bdb9b9;/*3d3250;*/
+	margin-top: 40px;
+	border-top: 10px solid #000000;
+}
+.img_circle {
+	margin: 70px auto 0px auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #332944;
+	overflow: hidden;
+}
+.item_wrap p {
+	display: block;
+	width: 295px;
+	margin: 40px auto 40px auto;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	line-height: 30px;
+}
+.item_btn {
+	width: 190px;
+	margin: 0 auto;
+}
